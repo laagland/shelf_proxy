@@ -6,7 +6,8 @@ homepage: https://github.com/dart-lang/shelf_proxy
 dependencies:
   http: '>=0.9.0 <0.12.0'
   path: '>=1.0.0 <2.0.0'
-  shelf: '>=0.5.2 <0.8.0'
+  shelf:
+    git: git://github.com/laagland/shelf.git
 dev_dependencies:
   browser: '>=0.10.0 <0.11.0'
   scheduled_test: '>=0.12.0 <0.13.0'
